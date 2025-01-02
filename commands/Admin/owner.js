@@ -5,7 +5,7 @@ import path from 'path';
 
 export default {
   name: 'المطور', // اسم الأمر
-  author: 'حسين يعقوبي', // مؤلف الأمر
+  author: 'MAHER.FOKS', // مؤلف الأ
   role: 'member', // الدور المطلوب لاستخدام الأمر
   description: 'يعرض معلومات عن مالك الأمر.', // وصف الأمر
   aliases:['مطور','المالك'],
@@ -24,12 +24,12 @@ export default {
       api.setMessageReaction('🚀', event.messageID, (err) => {}, true);
       // معلومات المالك
       const ownerInfo = {
-        name: 'حسين يعقوبي',
+        name: 'MAHER.FOKS',
         gender: 'ذكر',
         age: '18',
         height: '180',
-        facebookLink: 'https://www.facebook.com/profile.php?id=100093589771272',
-        nick: 'صاིئدّ اིلཻأرٰوٰ໑ٰاིح᪽',
+        facebookLink: 'https://www.facebook.com/MAHER.FOKS',
+        nick: ᏝᎾᏒᎠ ᎠᎯᏒᏦ,
       };
 
       const videoLink = 'https://drive.google.com/uc?export=download&id=1VU7B3OxTlTmGymay7l9McpCYKOPJy7m9'; // الرابط الخاص بالفيديو
