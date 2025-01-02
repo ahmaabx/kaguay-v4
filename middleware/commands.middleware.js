@@ -19,7 +19,7 @@ export const commandMiddleware = async () => {
             if (!commands?.name) {
               log([
                 {
-                  message: "[ KAGUYA ]: ",
+                  message: "[ Maki ]: ",
                   color: "green",
                 },
                 {
@@ -32,7 +32,7 @@ export const commandMiddleware = async () => {
             if (typeof commands?.execute !== "function") {
               log([
                 {
-                  message: "[ KAGUYA ]: ",
+                  message: "[ Maki ]: ",
                   color: "green",
                 },
                 {
@@ -45,7 +45,7 @@ export const commandMiddleware = async () => {
             await global.client.commands.set(commands.name, commands);
             await log([
               {
-                message: "[ KAGUYA ]: ",
+                message: "[ Maki ]: ",
                 color: "green",
               },
               {
@@ -77,7 +77,7 @@ export const commandMiddleware = async () => {
           } catch (error) {
             log([
               {
-                message: "[ KAGUYA ]: ",
+                message: "[ Maki ]: ",
                 color: "green",
               },
               {
@@ -93,7 +93,7 @@ export const commandMiddleware = async () => {
   } catch (error) {
     log([
       {
-        message: "[ KAGUYA ]: ",
+        message: "[ Maki ]: ",
         color: "green",
       },
       {
