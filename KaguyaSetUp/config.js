@@ -1,7 +1,7 @@
 export default {
     "prefix": ".", 
     "BOT_NAME": "Makima",
-    "ADMIN_IDS": ["61556124276054","61556124276054","61556124276054"],
+    "ADMIN_IDS": ["61565401156363","61565401156363","61565401156363"],
     "botEnabled": true,
     "autogreet": true, // تمت إضافة هذه الخاصية
     "options": {
